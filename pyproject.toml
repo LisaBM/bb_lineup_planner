@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "bb_lineup_planner"
+version = "0.0.1"
+description = "App for planning basketball line-ups"
+authors = ["Lisa Mattrisch"]
+
+[tool.poetry.dependencies]
+python = "3.9.*"
+streamlit = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+yapf = "*"
